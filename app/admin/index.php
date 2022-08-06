@@ -23,15 +23,16 @@
           <ul>
             <li class="nav-item garis">Tutorials</li>
             <li class="nav-item garis">Plugins</li>
-            <li class="nav-item premium">
-              <i class="bx bxs-crown"></i>
-              <p>Premium</p>
-            </li>
+            <li class="nav-item garis">Help</li>
           </ul>
-          <div class="sidemenu">
-            <a href="../index.php" class="button">Logout</a>
-            <i class="bx bxs-widget"></i>
-          </div>
+        </div>
+        <div class="sidemenu">
+          <!-- <div class="premium">
+            <i class="bx bxs-crown"></i>
+              <p>Premium</p>
+          </div> -->
+          <a href="../index.php" class="button ">Logout</a>
+          <i class="bx bxs-widget"></i>
         </div>
       </div>
     </header>

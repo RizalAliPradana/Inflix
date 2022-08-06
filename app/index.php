@@ -30,7 +30,7 @@
             </div>
             <div class="container_input input2">
                 <div class="i">
-                <i class='bx bxs-lock-alt bx-tada-hover'></i>
+                <i class='bx bxs-lock-alt bx-tada-hover '></i>
                 </div>
                 <div>
                     <input type="password"  placeholder="Password" name="password" >
@@ -42,5 +42,6 @@
         </div>
     </div>
  </div>
+ <script src="script.js"></script>
 </body>
 </html>
