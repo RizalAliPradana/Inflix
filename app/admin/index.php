@@ -23,6 +23,7 @@
           <ul>
             <li class="nav-item garis">Tutorials</li>
             <li class="nav-item garis">Plugins</li>
+            <li class="nav-item garis"><a href="../princing/index.php">Princing</a></li>
             <li class="nav-item garis">Help</li>
           </ul>
         </div>
