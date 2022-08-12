@@ -11,8 +11,12 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+   
+        <img class="wave" src="./assets/img/wave.png" alt="">
+  
     <section class="price">
-        <div class="container text-center">
+        <div class="main-container">
+         <div class="container text-center">
             <strong class="heading" >PLANS</strong>
             <h1>Simple, transparent princing</h1>
             <div class="princing">
@@ -128,7 +132,8 @@
                     </tr>
                 </tbody>
             </table>
-         </div>
+            </div>
+            </div>
         </div>
     </section>
 </body>

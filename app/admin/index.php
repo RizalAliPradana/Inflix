@@ -11,6 +11,13 @@
     <title>Influx</title>
   </head>
   <body>
+<?php 
+  session_start();
+  if($_SESSION['status'] != 'login'){
+    header("location:../index.php?data=belum_login");
+  }
+?>
+
     <header>
       <div class="container_header">
         <div class="main_content">
@@ -21,18 +28,14 @@
         </div>
         <div class="navlink">
           <ul>
-            <li class="nav-item garis">Tutorials</li>
             <li class="nav-item garis">Plugins</li>
             <li class="nav-item garis"><a href="../princing/index.php">Princing</a></li>
             <li class="nav-item garis">Help</li>
           </ul>
         </div>
         <div class="sidemenu">
-          <!-- <div class="premium">
-            <i class="bx bxs-crown"></i>
-              <p>Premium</p>
-          </div> -->
-          <a href="../index.php" class="button ">Logout</a>
+          <a href="../admin/add/index.php">Register</a>
+          <a href="../logout.php" class="button" onclick="return confirm('Are you sure want to Logout?')">Logout</a>
           <i class="bx bxs-widget"></i>
         </div>
       </div>

@@ -13,7 +13,24 @@ body {
 .text-center {
   text-align: center;
 }
+
+/* WAVE */
+.wave {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  position: fixed;
+  z-index: -999;
+}
 /* CONTAINER */
+.main-container {
+  padding: 0 2rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container {
   width: 768px;
   height: auto;
@@ -42,6 +59,7 @@ body {
 }
 /* MONTHLY 1 */
 .monthly {
+  background-color: white;
   padding: 20px 40px;
   margin: 0 0 2rem 0;
   display: grid;
@@ -90,6 +108,7 @@ body {
 }
 /* TABLE */
 .table {
+  background-color: white;
   padding: 1rem 2.5rem;
   box-shadow: 0 4px 18px rgb(0, 0, 0, 0.1);
   border-radius: 25px;
@@ -104,6 +123,7 @@ table {
 table th {
   letter-spacing: 1.3px;
 }
+
 thead tr th:nth-child(2) {
   color: #606060;
   width: 50px;
