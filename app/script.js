@@ -41,7 +41,6 @@
 //   ask = confirm("Ingin bermain lagi?");
 // }
 
-
 // GAME TEBAK ANGKA
 // let player = prompt("Tebak angka dari 1-10:");
 // let comp = Math.floor(Math.random() * 10 + 1);

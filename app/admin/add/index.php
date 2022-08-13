@@ -41,7 +41,20 @@
                 <div>
                     <input type="text" placeholder="Level" disabled>
                 </div>
-           
+           </div>
+           <div class="container_checkbox">
+                <div class="checkbox1">
+                    <input  type="checkbox">
+                    <label for="">Admin</label>
+                </div>
+                <div class="checkbox2">
+                <input  type="checkbox">
+                    <label for="">Walas</label>
+                </div>
+                <div class="checkbox3">
+                <input  type="checkbox">
+                    <label for="">Guru-Piket</label>
+                </div>
            </div>
            <a href="../index.php" class="forgot">Back to dashboard?</a>
             <button type="submit" class="btn">Register</button>

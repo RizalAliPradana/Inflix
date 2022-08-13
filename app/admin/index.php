@@ -17,8 +17,14 @@
     header("location:../index.php?data=belum_login");
   }
 ?>
-
+<div class="container_alert" id="con">
+<div class="alert">
+  <p>Welocome to admin dashboard</p>
+  <i class='bx bx-x' style='color:#fff' onclick="remove()"></i>
+</div>
+</div>
     <header>
+
       <div class="container_header">
         <div class="main_content">
           <div class="bulat"></div>
@@ -39,7 +45,9 @@
           <i class="bx bxs-widget"></i>
         </div>
       </div>
+      
     </header>
+   
     <!-- LORDICON -->
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <!-- JAVA SCRIPT -->

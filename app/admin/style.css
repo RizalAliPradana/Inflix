@@ -45,6 +45,30 @@ header {
   background-color: transparent;
   z-index: 999;
 }
+.none {
+  display: none;
+}
+/* ALERT */
+.container_alert {
+  background-color: #2ac48f;
+}
+.alert {
+  display: flex;
+  align-items: center;
+  margin: 0 4rem;
+  height: 40px;
+}
+.alert p {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0;
+  font-weight: 600;
+  color: white;
+}
+.alert i {
+  font-size: 1.7rem;
+}
 /* .wave {
   height: 100%;
   position: fixed;
@@ -218,6 +242,7 @@ header {
   text-decoration: underline;
   color: #2ac48f;
 }
+
 @media (max-width: 1920px) {
   /* .sidemenu .premium i {
     display: block;

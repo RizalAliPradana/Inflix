@@ -25,7 +25,7 @@
                  <i class='bx bxs-user bx-tada-hover'></i>
                 </div>
              <div>
-                    <input type="text"  placeholder="Username" name="username">
+                    <input type="text" placeholder="Username" name="username" aria-required="true"> 
                 </div>
             </div>
             <div class="container_input input2">
@@ -33,11 +33,11 @@
                 <i class='bx bxs-lock-alt bx-tada-hover '></i>
                 </div>
                 <div>
-                    <input type="password"  placeholder="Password" name="password" >
+                    <input type="password"  placeholder="Password" name="password" aria-required="true">
                 </div>
             </div>
             <a href="" class="forgot">Forgot password?</a>
-            <button type="submit" class="btn">Login</button>
+            <button class="btn">Login</button>
             <?php 
                 if (isset($_GET['data'])) { 
                     if ($_GET['data'] == "gagal") { 
